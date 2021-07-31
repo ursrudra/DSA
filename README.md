@@ -1,4 +1,4 @@
-#Simple Balanced Parentheses
+# Simple Balanced Parentheses
 
 Balanced parentheses means that each opening symbol has a corresponding closing symbol and the pairs of parentheses are properly nested.
 
@@ -35,6 +35,6 @@ class Validator {
         return this.isStackEmpty()
     }
 }
-const fun = new Validator('(()=>{})()')
+const fun = new Validator('(((A+B)-(C * D))/E)')
 console.log(fun.validate());
 ~~~
